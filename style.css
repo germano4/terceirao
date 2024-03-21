@@ -1,11 +1,32 @@
 @charset "UTF-8";
 body{
-    background-color: lightblue;
+
+    background-color: lightcyan;
     color: black;
     font-size: 12pts;
     font-family: Arial;
 }
 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+}
+
+.logo{
+    display: flex;
+    width: 10px;
+}
+nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
 h1{
     color: black;
+
 }
