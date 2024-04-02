@@ -1,10 +1,12 @@
 @charset "UTF-8";
 body{
-
-    background-color: lightcyan;
+    text-decoration: none;
     color: black;
     font-size: 12pts;
     font-family: Arial;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 13%, rgba(9,22,121,1) 41%, rgba(0,212,255,0.8379726890756303) 100%);
 }
 
 header{
@@ -12,15 +14,19 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: whitesmoke;
+    background-color:black;
     padding: 20px 20px;
+}
+.cabeçalho{
+    text-align: center;
+    color: gray;
 }
 
 .logo{
     display: flex;
     width: 10px;
 }
-nav {
+.nav {
     width: 200px;
     display: flex;
     justify-content: space-between;
@@ -29,4 +35,8 @@ nav {
 h1{
     color: black;
 
+}
+
+a{
+    text-decoration: none;
 }
