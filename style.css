@@ -2,11 +2,10 @@
 body{
     text-decoration: none;
     color: black;
-    font-size: 12pts;
     font-family: Arial;
     text-align: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 13%, rgba(9,22,121,1) 41%, rgba(0,212,255,0.8379726890756303) 100%);
+    background: linear-gradient(0deg, rgb(14, 19, 83) 5%, rgb(26, 105, 158) 50%, rgba(38, 169, 245, 0.838) 150%);
+    margin: none;
 }
 
 header{
@@ -26,15 +25,18 @@ header{
     display: flex;
     width: 10px;
 }
-.nav {
+nav {
     width: 200px;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
 }
-
+h2{
+    color: gray;
+    font-size: 20px;
+}
 h1{
     color: black;
-
+    font-size: 30px;
 }
 
 a{
